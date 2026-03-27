@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap");
+
+:root {
+  /* Crisp, Light Backgrounds (Zero Blue) */
+  --bg-app: #f9f9f9; /* Soft off-white for the main app */
+  --bg-card: #ffffff; /* Pure white for cards and sidebar */
+  --bg-input: #ffffff;
+
+  /* High-Contrast Typography */
+  --text-main: #171717; /* Near black for readability */
+  --text-muted: #737373; /* Neutral gray for secondary text */
+
+  /* Premium Emerald & Forest Green Accents */
+  --accent-primary: #10b981; /* Vibrant Emerald */
+  --accent-hover: #059669; /* Darker Emerald for hover states */
+  --accent-light: #d1fae5; /* Very soft green for active menu items */
+  --hero-bg: #064e3b; /* Deep forest green for the login hero */
+
+  /* Status Colors */
+  --status-success: #10b981;
+  --status-warning: #f59e0b;
+  --status-danger: #ef4444;
+  --status-info: #14b8a6; /* Teal instead of blue */
+
+  /* Structure & Borders */
+  --border-color: #e5e5e5;
+  --radius-lg: 16px;
+  --radius-md: 8px;
+  --radius-sm: 4px;
+  --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.04);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+  /* Transitions */
+  --transition-speed: 0.2s;
+  --sidebar-expanded: 260px;
+  --sidebar-collapsed: 80px;
+}

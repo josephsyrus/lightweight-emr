@@ -1,0 +1,117 @@
+/* Clean White Cards */
+.card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  box-shadow: var(--shadow-soft);
+}
+
+/* Beautiful Forms */
+.form-group {
+  margin-bottom: 24px;
+}
+.form-label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--text-main);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 14px 16px;
+  background-color: var(--bg-input);
+  color: var(--text-main);
+  border: 1px solid #d4d4d4;
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.15); /* Soft green glow */
+}
+
+/* Solid Flat Buttons (No Gradients) */
+.btn {
+  padding: 12px 24px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-speed) ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-primary {
+  background-color: var(--accent-primary);
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: var(--accent-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.25);
+}
+
+/* Interactive Table Rows */
+tbody tr {
+  transition: background-color 0.15s ease;
+}
+
+tbody tr:hover {
+  background-color: #f3f4f6; /* Soft, premium light grey */
+  cursor: pointer; /* Gives the classic pointing hand */
+}
+
+/* Interactive Cards (Like your Pending Labs grid) */
+.card {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.card:hover {
+  background-color: #fafafa; /* Very subtle grey shift */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06); /* Slightly lifts the card */
+}
+
+/* [cite: 179-181] Action Button for Revoking Staff */
+.btn-revoke {
+  padding: 4px 12px;
+  background: transparent;
+  border: 1px solid var(--status-danger);
+  color: var(--status-danger);
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-revoke:hover {
+  background-color: var(--status-danger);
+  color: white;
+}
+
+/* [cite: 194] Sidebar Hover Boxes */
+.nav-link-collapse:hover {
+  background-color: #f3f4f6 !important; /* Grey for collapse */
+  border-radius: var(--radius-sm);
+}
+
+.nav-link-logout:hover {
+  background-color: rgba(239, 68, 68, 0.1) !important; /* Soft Red for logout */
+  color: var(--status-danger) !important;
+  border-radius: var(--radius-sm);
+}

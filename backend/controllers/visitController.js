@@ -111,7 +111,6 @@ export const getPendingLabs = async (req, res) => {
   const { clinicId } = req.user;
 
   try {
-    // Join labreport, visits, and patients to get all necessary context
     const query = `
       SELECT 
         l.report_id, 
